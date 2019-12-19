@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+#interrogante {
+	font-size: 18px;
+	color: #066CAA;
+	padding-left: 3px;
+	height: 30px;
+	margin-bottom: 10px;
+	background-color: #B5D053;
+}
+.faq {
+	background-color: #B5D053;
+	cursor: pointer;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #066CAA;
+	height: 30px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	background-image: url(fotos/interrogante30.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	padding-left: 40px;
+
+}
+.faq:hover {
+	background-color: #91AD30;
+	color: #EB1E83;
+}
+.relativa {
+	position: relative;
+	padding-top: 5px !important;
+		
+}
+.oculta {
+	position: absolute;
+	z-index: auto;
+	left: 0px;
+	top: -5px;
+	width: 720px;
+	height: 304px;
+	background-color: #D0E294;
+	visibility: hidden;
+	cursor: pointer;
+	text-align: justify;
+	overflow: scroll;
+}
+#respuesta1 p {
+	margin-top: 75px;
+	margin-right: 45px;
+	margin-left: 45px;
+}
+#respuesta2 p {
+	margin-right: 20px;
+	margin-left: 20px;
+}
+#respuesta3 p {
+	margin-top: 100px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+#respuesta4 p {
+	margin-top: 60px;
+	margin-right: 50px;
+	margin-left: 50px;
+
+}
+#respuesta5 p {
+	margin-top: 75px;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+#respuesta6 p {
+	font-size: 13px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+}

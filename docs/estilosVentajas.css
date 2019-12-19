@@ -1,0 +1,21 @@
+.ventajas {
+	text-align: justify;
+	background-image: url(fotos/tarjeta.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-left: 390px;
+	padding-right: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.alinearTexto {
+	vertical-align: bottom;
+}
+
+#tablaClub {
+	font-size: 12px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 15px;
+	border: thick groove #BECD00;
+}

@@ -1,0 +1,52 @@
+#ubicacion {
+	width: 698px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 286px;
+}
+#ubicacion div {
+	float: left;
+	margin-right: 10px;
+	width: 310px;
+	font-size: 14px;
+	text-align: justify;
+}
+#contacto {
+	float: left;
+	width: 700px;
+	font-size: 14px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+#contacto table {
+	width: 700px;
+	margin-bottom: 5px;
+}
+.celdaLink {
+	width:64px !important;
+	height:64px;
+}
+.miniPubliLlamas {
+	width: 130px;
+	height: auto;
+	border-right-width: 5px;
+	border-left-width: 5px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #D0E294;
+	border-left-color: #D0E294;
+	margin-top: 10px;
+	padding: 5px;
+	background-color: #000;
+	background-image: url(fotos/AhorroLlamasTrans.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+	font-size: 12px;
+	font-weight: normal;
+	color: #EB1E83;
+	text-align: left;
+}
+.celdaLarga {
+	width: 560px;
+}

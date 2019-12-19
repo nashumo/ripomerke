@@ -1,0 +1,183 @@
+@charset "utf-8";
+/* CSS Document. Asociada a todos los documentos del sitio. Define los estilos que se van a aplicar a la estructura común de todos los documentos html, y otros estilos de uso frecuente.*/
+body {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background-color: #B5D053;
+	font-size: 14px;
+	font-weight: lighter;
+}
+/*#container alberga todas las secciones de cada documento. Se divide en cabecera, containerSecundario y piePag*/
+#container {
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color:#EB1E83;
+	height: 100%;
+}
+#cabecera {
+	height: 280px;
+	width: 900px;
+}
+/*#containerSecundario de divide en lateral y contenidos*/
+#containerSecundario {
+	width: 880px;
+	background-color: #D0E294;
+	float: left;
+	height: 100%;
+	border: 10px solid #EB1E83;
+}
+/*#lateral incluye una tabla para la navegación general y otros contenidos específicos que se definirán en hoja de estilos específica para cada documento*/
+#lateral {
+	float: left;
+	width: 150px;
+	padding-top: 10px;
+	height: 100%;
+}
+#navegacion {
+	font-size: 14px;
+	font-weight: bold;
+	margin: auto;
+}
+.celdaNavegacion {
+	background-color: #b5d053;
+	height: auto;
+	width: auto;
+	border-top-width: 3px;
+	border-left-width: 3px;
+	border-bottom-width: 3px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #B5D053;
+	border-bottom-color: #B5D053;
+	border-left-color: #B5D053;
+}
+#navegacion tr td:hover {
+	background-color: #91AD30;
+	border-top-color: #91AD30;
+	border-bottom-color: #91AD30;
+	border-left-color: #91AD30;
+}
+#navegacion a:visited {
+	color: #EB1E83;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 14px;
+	font-weight: bolder;
+	text-decoration: none;
+}
+#navegacion a:link{
+	color: #066CAA;
+	text-decoration: none;
+}
+#navegacion a:hover {
+	color: #F4EA12;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 14px;
+	font-weight: bolder;
+	text-decoration: none;
+}
+.celdaIdioma {
+	width: 63px;
+	height: 40px;
+	text-align: center;
+	background-color: #B5D053;
+}
+.botonIdioma {
+	float: none;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin: auto;
+}
+/*#contenidos: para los contenidos específicos de cada documento html, cuyos estilos estarán definidos en su hoja de css particular*/
+#contenidos {
+	float: left;
+	width: 720px;
+	border-left-width: 10px;
+	border-left-style: solid;
+	border-left-color: #EB1E83;
+	height: 100%;
+	padding-top: 5px;
+}
+
+/*#polivalente sirve para subdivir contenidos dentro de #contenidos en el caso de que estos deban ir en bloques diferentes*/
+#polivalente {
+	width: 690px;
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+#piePag {
+	width: 900px;
+	float: left;
+	font-size: 14px;
+	background-color: #EB1E83;
+	text-align: center;
+	color: #F4EA12;
+}
+#piePag  a:link{
+	color: #F4EA12;
+	text-decoration: underline;
+}
+#piePag p {
+	display: inline;
+}
+/*Hasta aquí la estructura común a todos los html del sitio.
+A continuación otros estilos de uso frecuente como margenes, tipografías, alineación, etc*/
+.encabezados {
+	padding-top: 10px;
+	font-size: 18px;
+	font-weight: normal;
+}
+.margenEspecial {
+	margin-right: 15px;
+	margin-left: 15px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	text-decoration: none;
+}
+.centrar {
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+.publi {
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+.linkImagen {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+.miniPrecios {
+	margin-top: 10px;
+	text-align: left;
+	width: 130px;
+	height: auto;
+	background-color: #000;
+	border-right-width: 5px;
+	border-left-width: 5px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #D0E294;
+	border-left-color: #D0E294;
+	font-size: 15px;
+	color: #EB1E83;
+	padding: 5px;
+}

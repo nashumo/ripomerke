@@ -1,0 +1,39 @@
+.impresora {
+	width: 575px;
+	padding-left: 130px;
+	padding-right: 15px;
+	height: 85px;
+	background-image: url(fotos/impresora.jpg);
+	background-repeat: no-repeat;
+	background-position: 12px top;
+	font-size: 16px;
+	text-align: center;
+}
+.recarga {
+	width: 545px;
+	padding-left: 165px;
+	padding-right: 10px;
+	height: auto;
+	font-size: 16px;
+	text-align: center;
+	background-image: url(fotos/productos.jpg);
+	background-repeat: no-repeat;
+	background-position: 10px 10px;
+}
+#polivalente {
+	background-image: url(fotos/marcas2.jpg);
+	background-position: 10px 15px;
+	background-repeat: no-repeat;
+}
+
+.recargaCat {
+	width: 545px;
+	padding-left: 165px;
+	padding-right: 10px;
+	height: auto;
+	font-size: 16px;
+	text-align: center;
+	background-image: url(fotos/productesCat.jpg);
+	background-repeat: no-repeat;
+	background-position: 10px 10px;
+}

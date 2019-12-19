@@ -1,0 +1,103 @@
+#reciclar {
+	height: 390px;
+	width: 720px;
+	position: relative;
+}
+#fotoReciclar {
+	padding-top: 15px;
+	width: 720px;
+	float: left;
+}
+#ocultaEcologia {
+	background-color: #b5d053;
+	position: absolute;
+	z-index: auto;
+	height: auto;
+	width: 350px;
+	left: 154px;
+	top: 36px;
+	border: 10px solid #eb1e83;
+	visibility: hidden;
+	padding: 10px;
+	cursor: pointer;
+}
+#ocultaCalidad {
+	background-color: #b5d053;
+	position: absolute;
+	z-index: auto;
+	height: auto;
+	width: 350px;
+	left: 154px;
+	top: 56px;
+	border: 10px solid #066caa;
+	visibility: hidden;
+	padding: 10px;
+	cursor: pointer;
+}
+#ocultaAhorro {
+	background-color: #b5d053;
+	position: absolute;
+	z-index: auto;
+	height: auto;
+	width: 350px;
+	left: 154px;
+	top: 46px;
+	border: 10px solid #f4ea12;
+	visibility: hidden;
+	padding: 10px;
+	cursor: pointer;
+}
+  /* Añado la clase .relativa copiada de estilosPreguntas para ver si aplicandola a #3motivos soluciono el problema para situarme las cajas contenidas aquí en la ubicación deseada. Despues de haber probado todas las posibilidades con la flotación, los margenes, empezar de nuevo desde 0, etc, la única posibilidad que me ha funcionado ha sido hacer relativa #3motivos, darle posición absoluta a #eco, #cali y #ahorro, y definir una altura concreta a #contenidos. Supongo que se podría simplificar todo si directamente incluyese esas 3 cajitas dentro de #reciclar que ya es relativa, y eliminase #3motivos. De momento sigo avanzando con los otros documentos y cuando acabe, si queda tiempo, lo pruebo.*/
+.relativa {
+	position: relative;
+	/*padding-top: 5px !important;*/
+}
+#eco {
+	/*border: 10px solid #eb1e83;*/
+	float: left;
+	background-image: url(fotos/ecologia.jpg);
+	background-repeat: no-repeat;
+	background-position: left center;
+	height: 60px;
+	width: 100px;
+	cursor: pointer;
+	position: absolute;
+	left: 143px;
+	top: 316px;
+	padding-left: 65px;
+	font-size: 16px;
+	color: #637621;
+}
+#cali {
+	float: left;
+	background-image: url(fotos/calidad.jpg);
+	background-repeat: no-repeat;
+	background-position: left center;
+	height: 60px;
+	width: 100px;
+	margin-right: 1px;
+	margin-left: 1px;
+	cursor: pointer;
+	position: absolute;
+	left: 309px;
+	top: 316px;
+	padding-left: 65px;
+	font-size: 16px;
+	color: #637621;
+}
+#ahorro {
+	/*border: 10px solid #f4ea12;*/
+	float: left;
+	background-image: url(fotos/ahorro.jpg);
+	background-repeat: no-repeat;
+	background-position: left center;
+	height: 60px;
+	width: 100px;
+	cursor: pointer;
+	position: absolute;
+	top: 316px;
+	left: 476px;
+	padding-left: 65px;
+	font-size: 16px;
+	color: #637621;
+}
